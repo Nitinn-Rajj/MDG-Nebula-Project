@@ -10,7 +10,7 @@
 #include "../algorithms/Priority.hpp"
 #include "../algorithms/MLQ.hpp"
 #include "../algorithms/MLFQ.hpp"
-#include "crow/middlewares/cors.h"
+#include "../crow/middlewares/cors.h"
 #include "../algorithms/MLQ_Aging.hpp"
 #include "../algorithms/SJF_Aging.hpp"
 #include <vector>

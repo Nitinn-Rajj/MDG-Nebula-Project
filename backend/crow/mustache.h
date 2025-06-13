@@ -1,5 +1,5 @@
 /**
- * \file crow/mustache.h
+ * \file mustache.h
  * \brief This file includes the definition of the crow::mustache
  * namespace and its members.
  */
@@ -10,10 +10,10 @@
 #include <fstream>
 #include <iterator>
 #include <functional>
-#include "crow/json.h"
-#include "crow/logging.h"
-#include "crow/returnable.h"
-#include "crow/utility.h"
+#include "json.h"
+#include "logging.h"
+#include "returnable.h"
+#include "utility.h"
 
 namespace crow // NOTE: Already documented in "crow/app.h"
 {

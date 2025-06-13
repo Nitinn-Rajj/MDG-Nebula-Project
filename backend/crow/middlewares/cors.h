@@ -1,8 +1,8 @@
 #pragma once
-#include "crow/common.h"
-#include "crow/http_request.h"
-#include "crow/http_response.h"
-#include "crow/routing.h"
+#include "../common.h"
+#include "../http_request.h"
+#include "../http_response.h"
+#include "../routing.h"
 
 namespace crow
 {

@@ -10,13 +10,13 @@
 #ifndef ASIO_STANDALONE
 #define ASIO_STANDALONE
 #endif
-#include <../asio.hpp>
-#include <../asio/version.hpp>
+#include "../asio.hpp"
+#include "../asio/version.hpp"
 #ifdef CROW_ENABLE_SSL
 #include <asio/ssl.hpp>
 #endif
 #endif
-#include "crow/settings.h"
+#include "settings.h"
 
 #if (CROW_USE_BOOST && BOOST_VERSION >= 107000) || (ASIO_VERSION >= 101300)
 #define GET_IO_CONTEXT(s) ((asio::io_context&)(s).get_executor().context())

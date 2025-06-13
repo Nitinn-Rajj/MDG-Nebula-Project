@@ -7,8 +7,8 @@
 #ifndef ASIO_STANDALONE
 #define ASIO_STANDALONE
 #endif
-#include <asio.hpp>
-#include <asio/basic_waitable_timer.hpp>
+#include "../asio.hpp"
+#include "../asio/basic_waitable_timer.hpp"
 #endif
 
 #include <chrono>
@@ -16,7 +16,7 @@
 #include <map>
 #include <vector>
 
-#include "crow/logging.h"
+#include "logging.h"
 
 namespace crow
 {
