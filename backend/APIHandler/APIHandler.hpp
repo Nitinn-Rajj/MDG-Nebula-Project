@@ -1,6 +1,6 @@
 #pragma once
 
-#include "crow.h"
+#include "../crow.h"
 #include "../json.hpp"
 #include "../Parser.hpp"
 #include "../Type.hpp"
